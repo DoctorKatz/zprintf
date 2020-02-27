@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="zprintf"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zprintf">
+				<Option output="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/cmake-build-debug/zprintf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/ft_printf"/>
+					<Add directory="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/inc"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 zprintf"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zprintf/fast">
+				<Option output="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/cmake-build-debug/zprintf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/ft_printf"/>
+					<Add directory="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/inc"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 zprintf/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/ft_printf/ft_printf.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/ft_printf/ft_printf.h">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/ft_printf/pf_base.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/ft_printf/pf_ftoa.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/ft_printf/pf_len.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/ft_printf/pf_options.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/ft_printf/pf_parsing.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/ft_printf/pf_put.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/ft_printf/pf_router.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/ft_printf/pf_struct.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/ft_printf/pf_utils.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/inc/get_next_line.h">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/inc/libft.h">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/char/ft_isalnum.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/char/ft_isalpha.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/char/ft_isascii.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/char/ft_isdigit.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/char/ft_isprint.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/char/ft_tolower.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/char/ft_toupper.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/conv/ft_atoi.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/conv/ft_itoa.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/conv/ft_swap.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/lines/ft_count_word.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/lines/ft_getlines.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/lines/get_next_line.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/lst/ft_lstadd.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/lst/ft_lstdel.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/lst/ft_lstdelone.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/lst/ft_lstiter.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/lst/ft_lstmap.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/lst/ft_lstnew.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/lst/ft_lstrev.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/math/ft_clamp.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/math/ft_isprime.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/math/ft_iterative_power.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/math/ft_sqrt.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/mem/ft_bzero.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/mem/ft_memalloc.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/mem/ft_memccpy.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/mem/ft_memchr.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/mem/ft_memcmp.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/mem/ft_memcpy.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/mem/ft_memdel.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/mem/ft_memmove.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/mem/ft_memrchr.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/mem/ft_memset.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/put/ft_lprintf.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/put/ft_put2str.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/put/ft_putchar.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/put/ft_putchar_fd.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/put/ft_putendl.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/put/ft_putendl_fd.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/put/ft_putnbr.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/put/ft_putnbr_fd.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/put/ft_putstr.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/put/ft_putstr_fd.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/str/ft_findchr.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/str/ft_strcat.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/str/ft_strchr.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/str/ft_strclr.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/str/ft_strcmp.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/str/ft_strcpy.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/str/ft_strdel.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/str/ft_strdup.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/str/ft_strequ.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/str/ft_striter.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/str/ft_striteri.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/str/ft_strjoin.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/str/ft_strlcat.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/str/ft_strlen.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/str/ft_strlower.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/str/ft_strmap.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/str/ft_strmapi.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/str/ft_strncat.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/str/ft_strncmp.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/str/ft_strncpy.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/str/ft_strndup.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/str/ft_strnequ.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/str/ft_strnew.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/str/ft_strnstr.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/str/ft_strrchr.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/str/ft_strsplit.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/str/ft_strstr.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/str/ft_strsub.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/libft/src/str/ft_strtrim.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/main.c">
+			<Option target="zprintf"/>
+		</Unit>
+		<Unit filename="/Users/lgunship/Desktop/CLion_Work_Dir/zprintf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
