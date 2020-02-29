@@ -11,7 +11,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09a665c8-086f-4d63-8faa-33037e606416" name="Default Changelist" comment="" />
+    <list default="true" id="09a665c8-086f-4d63-8faa-33037e606416" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zprintf.dir/libft/src/put/ft_lprintf.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zprintf.dir/libft/src/put/ft_lprintf.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zprintf.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zprintf.dir/main.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/zprintf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/zprintf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/inc/libft.h" beforeDir="false" afterPath="$PROJECT_DIR$/libft/inc/libft.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/src/put/ft_lprintf.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/src/put/ft_lprintf.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +27,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YO1MyBc4vFgbn2qhURKsD7yKrL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.advertisement.text.overridden" value="true" />
@@ -61,12 +73,27 @@
       <updated>1582798782569</updated>
       <workItem from="1582798784195" duration="106000" />
       <workItem from="1582798891337" duration="6314000" />
-      <workItem from="1582808510348" duration="3582000" />
+      <workItem from="1582808510348" duration="3690000" />
+      <workItem from="1583008032961" duration="2592000" />
+      <workItem from="1583015809270" duration="2287000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

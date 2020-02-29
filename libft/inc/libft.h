@@ -32,6 +32,13 @@ typedef struct		s_list
 	struct s_list	*next;
 }					t_list;
 
+typedef struct		s_print
+{
+	int				d;
+	char			s[256];
+	char			*c;
+}					t_print;
+
 t_list				*ft_lstnew(void const *content, size_t content_size);
 t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 void				ft_lstadd(t_list **alst, t_list *new_l);

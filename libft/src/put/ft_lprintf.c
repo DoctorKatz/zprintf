@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lprintf.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: null <null@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: lgunship <lgunship@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/02/26 17:17:49 by null              #+#    #+#             */
-/*   Updated: 2020/02/27 17:03:16 by lgunship         ###   ########.fr       */
+/*   Created: 2020/03/01 01:54:29 by lgunship          #+#    #+#             */
+/*   Updated: 2020/03/01 01:54:29 by lgunship         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,41 +88,30 @@ char				*zcheck_flags(int d, char *s, char *c, va_list factor)
 	return (c);
 }
 
-char				*fuck_norminete(char *c)
-{
-	static char	str[256];
-	int			i;
-
-
-		str[i] = (*c);
-		i++;
-		return (str);
-}
-
 char				*ft_zlprintf(char *format, ...)
 {
-	int			d;
-	static char	s[256];
-	char		*c;
-	va_list		factor;
-	char		*str;
+	t_print			t_values;
+	va_list			factor;
+	static char		str[256];
+	int				i;
 
 	va_start(factor, format);
-	c = format;
-	ft_strclr(s);
-	while (*c)
+	t_values.c = format;
+	ft_strclr(str);
+	while (*(t_values.c))
 	{
-		if (*c != '%')
+		i = ft_strlen(str);
+		if (*(t_values.c) != '%')
 		{
-			str = fuck_norminete(c);
-			c++;
+			str[i] = *(t_values.c);
+			str[++i] = '\0';
+			t_values.c++;
 			continue;
 		}
-		ft_strcat(s, zcheck_flags(d, s, c, factor));
-		c += 2;
+		ft_strcat(str, zcheck_flags(t_values.d,\
+			t_values.s, t_values.c, factor));
+		t_values.c += 2;
 	}
 	va_end(factor);
-	ft_strcat(s, str);
-	//free(str);
-	return (s);
+	return (str);
 }
